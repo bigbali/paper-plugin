@@ -1,0 +1,16 @@
+name: test-plugin
+version: ${project.version}
+main: paperplugins.testplugin.TestPlugin
+api-version: 1.16
+description: Just a test
+commands:
+  makegod:
+    description: Temporarily fills you with the power of the Allfather.
+    usage: /makegod
+    permission: test-plugin.makegod
+    permission-message: You are not worthy to be a god.
+  makedemigod:
+    description: Temporarily become a demigod, by will of the Allfather.
+    usage: /makegod
+    permission: test-plugin.makedemigod
+    permission-message: You are not worthy to be a demigod.
